@@ -50,7 +50,7 @@ for i in list(preds.keys()):
 	sequence_containing_x_vals=[i[0] for i in predlist]
 	sequence_containing_y_vals=[i[1] for i in predlist]
 	sequence_containing_z_vals=[i[2] for i in predlist]
-	ax.scatter(sequence_containing_x_vals, sequence_containing_vals, sequence_containing_z_vals)
+	ax.scatter(sequence_containing_x_vals, sequence_containing_y_vals, sequence_containing_z_vals)
 	plt.show()
 	time.sleep(10)
 	fig.clear()
